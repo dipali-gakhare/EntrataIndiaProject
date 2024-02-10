@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Free_CRM_Application" class="navigator-link">
+              <span class="suite-name border-failed">Free CRM Application</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Free_CRM_Application" class="navigator-link ">
+                    <span>C:\Users\DipakB\eclipse-workspace_selenium\EntrataIndiaProject\src\main\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Free_CRM_Application" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Free_CRM_Application" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Free_CRM_Application" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Free_CRM_Application" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Free_CRM_Application" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Free_CRM_Application" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods, 1 failed,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Free_CRM_Application" class="hide-methods failed suite-Free_CRM_Application"> (hide)</a> <!-- hide-methods failed suite-Free_CRM_Application -->
+                      <a href="#" panel-name="suite-Free_CRM_Application" class="show-methods failed suite-Free_CRM_Application"> (show)</a> <!-- show-methods failed suite-Free_CRM_Application -->
+                    </span>
+                    <div class="method-list-content failed suite-Free_CRM_Application">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Free_CRM_Application" title="com.entrata.qa.testcase.WatchdemoTest" class="method navigator-link" hash-for-method="WatchdemodetailTest">WatchdemodetailTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Free_CRM_Application -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Free_CRM_Application" class="hide-methods passed suite-Free_CRM_Application"> (hide)</a> <!-- hide-methods passed suite-Free_CRM_Application -->
+                      <a href="#" panel-name="suite-Free_CRM_Application" class="show-methods passed suite-Free_CRM_Application"> (show)</a> <!-- show-methods passed suite-Free_CRM_Application -->
+                    </span>
+                    <div class="method-list-content passed suite-Free_CRM_Application">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Free_CRM_Application" title="com.entrata.qa.testcase.EntrataDashboardTest" class="method navigator-link" hash-for-method="ClickProductTest">ClickProductTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Free_CRM_Application" title="com.entrata.qa.testcase.EntrataDashboardTest" class="method navigator-link" hash-for-method="ClickResourceTest">ClickResourceTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Free_CRM_Application" title="com.entrata.qa.testcase.EntrataDashboardTest" class="method navigator-link" hash-for-method="ClickSigninTest">ClickSigninTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Free_CRM_Application" title="com.entrata.qa.testcase.EntrataDashboardTest" class="method navigator-link" hash-for-method="ClickSolutionallTest">ClickSolutionallTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Free_CRM_Application" title="com.entrata.qa.testcase.ResourcepageTest" class="method navigator-link" hash-for-method="DownloadBtnTest">DownloadBtnTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Free_CRM_Application" title="com.entrata.qa.testcase.WatchdemoTest" class="method navigator-link" hash-for-method="EntrataLogoTest">EntrataLogoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Free_CRM_Application" title="com.entrata.qa.testcase.EntrataDashboardTest" class="method navigator-link" hash-for-method="entratalogoTest">entratalogoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Free_CRM_Application" title="com.entrata.qa.testcase.EntrataDashboardTest" class="method navigator-link" hash-for-method="pagetitleTest">pagetitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Free_CRM_Application" title="com.entrata.qa.testcase.ResourcepageTest" class="method navigator-link" hash-for-method="verifyText">verifyText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Free_CRM_Application" title="com.entrata.qa.testcase.EntrataDashboardTest" class="method navigator-link" hash-for-method="watchdemoTest">watchdemoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Free_CRM_Application -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Free_CRM_Application" class="panel Free_CRM_Application">
+          <div class="suite-Free_CRM_Application-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.entrata.qa.testcase.WatchdemoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="WatchdemodetailTest">
+                  </a> <!-- WatchdemodetailTest -->
+                  <span class="method-name">WatchdemodetailTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate option with value: 1-10
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;17.0.9&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:289)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:194)
+	at com.entrata.qa.pageObjects.WatchDemoPage.watchdemodetailPage(WatchDemoPage.java:60)
+	at com.entrata.qa.testcase.WatchdemoTest.WatchdemodetailTest(WatchdemoTest.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Free_CRM_Application-class-failed -->
+          <div class="suite-Free_CRM_Application-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.entrata.qa.testcase.EntrataDashboardTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickProductTest">
+                  </a> <!-- ClickProductTest -->
+                  <span class="method-name">ClickProductTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickResourceTest">
+                  </a> <!-- ClickResourceTest -->
+                  <span class="method-name">ClickResourceTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickSigninTest">
+                  </a> <!-- ClickSigninTest -->
+                  <span class="method-name">ClickSigninTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickSolutionallTest">
+                  </a> <!-- ClickSolutionallTest -->
+                  <span class="method-name">ClickSolutionallTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="entratalogoTest">
+                  </a> <!-- entratalogoTest -->
+                  <span class="method-name">entratalogoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pagetitleTest">
+                  </a> <!-- pagetitleTest -->
+                  <span class="method-name">pagetitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="watchdemoTest">
+                  </a> <!-- watchdemoTest -->
+                  <span class="method-name">watchdemoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Free_CRM_Application-class-passed -->
+          <div class="suite-Free_CRM_Application-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.entrata.qa.testcase.ResourcepageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DownloadBtnTest">
+                  </a> <!-- DownloadBtnTest -->
+                  <span class="method-name">DownloadBtnTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyText">
+                  </a> <!-- verifyText -->
+                  <span class="method-name">verifyText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Free_CRM_Application-class-passed -->
+          <div class="suite-Free_CRM_Application-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.entrata.qa.testcase.WatchdemoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EntrataLogoTest">
+                  </a> <!-- EntrataLogoTest -->
+                  <span class="method-name">EntrataLogoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Free_CRM_Application-class-passed -->
+        </div> <!-- panel Free_CRM_Application -->
+        <div panel-name="test-xml-Free_CRM_Application" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\DipakB\eclipse-workspace_selenium\EntrataIndiaProject\src\main\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Free CRM Application&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Free crm App test case&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.entrata.qa.testcase.EntrataDashboardTest&quot;/&gt;
+      &lt;class name=&quot;com.entrata.qa.testcase.ResourcepageTest&quot;/&gt;
+      &lt;class name=&quot;com.entrata.qa.testcase.WatchdemoTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Free crm App test case --&gt;
+&lt;/suite&gt; &lt;!-- Free CRM Application --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Free_CRM_Application" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Free CRM Application</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Free crm App test case (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Free_CRM_Application" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Free CRM Application</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Free_CRM_Application" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Free CRM Application</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Free_CRM_Application');
+function tableData_Free_CRM_Application() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'WatchdemodetailTest')
+data.setCell(0, 2, 'com.entrata.qa.testcase.WatchdemoTest')
+data.setCell(0, 3, 32030);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'watchdemoTest')
+data.setCell(1, 2, 'com.entrata.qa.testcase.EntrataDashboardTest')
+data.setCell(1, 3, 14016);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'DownloadBtnTest')
+data.setCell(2, 2, 'com.entrata.qa.testcase.ResourcepageTest')
+data.setCell(2, 3, 12856);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'EntrataLogoTest')
+data.setCell(3, 2, 'com.entrata.qa.testcase.WatchdemoTest')
+data.setCell(3, 3, 12714);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ClickSigninTest')
+data.setCell(4, 2, 'com.entrata.qa.testcase.EntrataDashboardTest')
+data.setCell(4, 3, 3108);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyText')
+data.setCell(5, 2, 'com.entrata.qa.testcase.ResourcepageTest')
+data.setCell(5, 3, 998);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'pagetitleTest')
+data.setCell(6, 2, 'com.entrata.qa.testcase.EntrataDashboardTest')
+data.setCell(6, 3, 865);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'ClickProductTest')
+data.setCell(7, 2, 'com.entrata.qa.testcase.EntrataDashboardTest')
+data.setCell(7, 3, 562);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'ClickResourceTest')
+data.setCell(8, 2, 'com.entrata.qa.testcase.EntrataDashboardTest')
+data.setCell(8, 3, 534);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'ClickSolutionallTest')
+data.setCell(9, 2, 'com.entrata.qa.testcase.EntrataDashboardTest')
+data.setCell(9, 3, 374);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'entratalogoTest')
+data.setCell(10, 2, 'com.entrata.qa.testcase.EntrataDashboardTest')
+data.setCell(10, 3, 320);
+window.suiteTableData['Free_CRM_Application']= { tableData: data, tableDiv: 'times-div-Free_CRM_Application'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Free_CRM_Application">
+              </div> <!-- times-div-Free_CRM_Application -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Free_CRM_Application" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Free CRM Application</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Free_CRM_Application" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Free_CRM_Application" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.entrata.qa.testcase.EntrataDashboardTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">pagetitleTest</span>
+                <span class="method-start">17328 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18200 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">24660 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">entratalogoTest</span>
+                <span class="method-start">37937 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">38260 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">41090 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">watchdemoTest</span>
+                <span class="method-start">57498 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">71519 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">74185 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClickSigninTest</span>
+                <span class="method-start">90202 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">93313 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">94728 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClickProductTest</span>
+                <span class="method-start">105279 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">105855 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">111992 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClickSolutionallTest</span>
+                <span class="method-start">123506 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">123887 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">124990 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClickResourceTest</span>
+                <span class="method-start">134335 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">134871 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.entrata.qa.testcase.ResourcepageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">137594 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DownloadBtnTest</span>
+                <span class="method-start">150172 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">163032 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">177687 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyText</span>
+                <span class="method-start">192686 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">193696 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.entrata.qa.testcase.WatchdemoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">195760 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EntrataLogoTest</span>
+                <span class="method-start">215076 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">227797 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">231494 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">WatchdemodetailTest</span>
+                <span class="method-start">250823 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">282872 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Free CRM Application]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Free crm App test case(failed)">
+    <classes>
+      <class name="com.entrata.qa.testcase.WatchdemoTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="WatchdemodetailTest"/>
+        </methods>
+      </class> <!-- com.entrata.qa.testcase.WatchdemoTest -->
+    </classes>
+  </test> <!-- Free crm App test case(failed) -->
+</suite> <!-- Failed suite [Free CRM Application] -->

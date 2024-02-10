@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-10T17:03:22 IST" name="Free CRM Application" finished-at="2024-02-10T17:08:07 IST" duration-ms="285085">
+    <groups>
+    </groups>
+    <test started-at="2024-02-10T17:03:22 IST" name="Free crm App test case" finished-at="2024-02-10T17:08:07 IST" duration-ms="285085">
+      <class name="com.entrata.qa.testcase.WatchdemoTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.entrata.qa.testcase.WatchdemoTest@117159c0]" started-at="2024-02-10T17:06:38 IST" name="setUp" finished-at="2024-02-10T17:06:57 IST" duration-ms="19315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="EntrataLogoTest()[pri:1, instance:com.entrata.qa.testcase.WatchdemoTest@117159c0]" started-at="2024-02-10T17:06:57 IST" name="EntrataLogoTest" finished-at="2024-02-10T17:07:10 IST" duration-ms="12714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EntrataLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.entrata.qa.testcase.WatchdemoTest@117159c0]" started-at="2024-02-10T17:07:10 IST" name="tearDown" finished-at="2024-02-10T17:07:14 IST" duration-ms="3694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.entrata.qa.testcase.WatchdemoTest@117159c0]" started-at="2024-02-10T17:07:14 IST" name="setUp" finished-at="2024-02-10T17:07:33 IST" duration-ms="19328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="WatchdemodetailTest()[pri:2, instance:com.entrata.qa.testcase.WatchdemoTest@117159c0]" started-at="2024-02-10T17:07:33 IST" name="WatchdemodetailTest" finished-at="2024-02-10T17:08:05 IST" duration-ms="32030" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate option with value: 1-10
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '17.0.9'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with value: 1-10
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '17.0.9'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:289)
+at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:194)
+at com.entrata.qa.pageObjects.WatchDemoPage.watchdemodetailPage(WatchDemoPage.java:60)
+at com.entrata.qa.testcase.WatchdemoTest.WatchdemodetailTest(WatchdemoTest.java:43)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WatchdemodetailTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.entrata.qa.testcase.WatchdemoTest@117159c0]" started-at="2024-02-10T17:08:05 IST" name="tearDown" finished-at="2024-02-10T17:08:07 IST" duration-ms="2137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.entrata.qa.testcase.WatchdemoTest -->
+      <class name="com.entrata.qa.testcase.EntrataDashboardTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.entrata.qa.testcase.EntrataDashboardTest@f09733f]" started-at="2024-02-10T17:03:22 IST" name="setUp" finished-at="2024-02-10T17:03:39 IST" duration-ms="17325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pagetitleTest()[pri:1, instance:com.entrata.qa.testcase.EntrataDashboardTest@f09733f]" started-at="2024-02-10T17:03:39 IST" name="pagetitleTest" finished-at="2024-02-10T17:03:40 IST" duration-ms="865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pagetitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.entrata.qa.testcase.EntrataDashboardTest@f09733f]" started-at="2024-02-10T17:03:40 IST" name="tearDown" finished-at="2024-02-10T17:03:47 IST" duration-ms="6450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.entrata.qa.testcase.EntrataDashboardTest@f09733f]" started-at="2024-02-10T17:03:47 IST" name="setUp" finished-at="2024-02-10T17:04:00 IST" duration-ms="13277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="entratalogoTest()[pri:2, instance:com.entrata.qa.testcase.EntrataDashboardTest@f09733f]" started-at="2024-02-10T17:04:00 IST" name="entratalogoTest" finished-at="2024-02-10T17:04:00 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entratalogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.entrata.qa.testcase.EntrataDashboardTest@f09733f]" started-at="2024-02-10T17:04:00 IST" name="tearDown" finished-at="2024-02-10T17:04:03 IST" duration-ms="2828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.entrata.qa.testcase.EntrataDashboardTest@f09733f]" started-at="2024-02-10T17:04:03 IST" name="setUp" finished-at="2024-02-10T17:04:20 IST" duration-ms="16408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="watchdemoTest()[pri:3, instance:com.entrata.qa.testcase.EntrataDashboardTest@f09733f]" started-at="2024-02-10T17:04:20 IST" name="watchdemoTest" finished-at="2024-02-10T17:04:34 IST" duration-ms="14016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- watchdemoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.entrata.qa.testcase.EntrataDashboardTest@f09733f]" started-at="2024-02-10T17:04:34 IST" name="tearDown" finished-at="2024-02-10T17:04:36 IST" duration-ms="2664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.entrata.qa.testcase.EntrataDashboardTest@f09733f]" started-at="2024-02-10T17:04:36 IST" name="setUp" finished-at="2024-02-10T17:04:52 IST" duration-ms="16015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ClickSigninTest()[pri:4, instance:com.entrata.qa.testcase.EntrataDashboardTest@f09733f]" started-at="2024-02-10T17:04:52 IST" name="ClickSigninTest" finished-at="2024-02-10T17:04:55 IST" duration-ms="3108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickSigninTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.entrata.qa.testcase.EntrataDashboardTest@f09733f]" started-at="2024-02-10T17:04:55 IST" name="tearDown" finished-at="2024-02-10T17:04:57 IST" duration-ms="1412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.entrata.qa.testcase.EntrataDashboardTest@f09733f]" started-at="2024-02-10T17:04:57 IST" name="setUp" finished-at="2024-02-10T17:05:07 IST" duration-ms="10551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ClickProductTest()[pri:5, instance:com.entrata.qa.testcase.EntrataDashboardTest@f09733f]" started-at="2024-02-10T17:05:07 IST" name="ClickProductTest" finished-at="2024-02-10T17:05:08 IST" duration-ms="562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickProductTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.entrata.qa.testcase.EntrataDashboardTest@f09733f]" started-at="2024-02-10T17:05:08 IST" name="tearDown" finished-at="2024-02-10T17:05:14 IST" duration-ms="6134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.entrata.qa.testcase.EntrataDashboardTest@f09733f]" started-at="2024-02-10T17:05:14 IST" name="setUp" finished-at="2024-02-10T17:05:26 IST" duration-ms="11514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ClickSolutionallTest()[pri:6, instance:com.entrata.qa.testcase.EntrataDashboardTest@f09733f]" started-at="2024-02-10T17:05:26 IST" name="ClickSolutionallTest" finished-at="2024-02-10T17:05:26 IST" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickSolutionallTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.entrata.qa.testcase.EntrataDashboardTest@f09733f]" started-at="2024-02-10T17:05:26 IST" name="tearDown" finished-at="2024-02-10T17:05:27 IST" duration-ms="1099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.entrata.qa.testcase.EntrataDashboardTest@f09733f]" started-at="2024-02-10T17:05:27 IST" name="setUp" finished-at="2024-02-10T17:05:36 IST" duration-ms="9345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ClickResourceTest()[pri:7, instance:com.entrata.qa.testcase.EntrataDashboardTest@f09733f]" started-at="2024-02-10T17:05:36 IST" name="ClickResourceTest" finished-at="2024-02-10T17:05:37 IST" duration-ms="534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickResourceTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.entrata.qa.testcase.EntrataDashboardTest@f09733f]" started-at="2024-02-10T17:05:37 IST" name="tearDown" finished-at="2024-02-10T17:05:40 IST" duration-ms="2719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.entrata.qa.testcase.EntrataDashboardTest -->
+      <class name="com.entrata.qa.testcase.ResourcepageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.entrata.qa.testcase.ResourcepageTest@54422e18]" started-at="2024-02-10T17:05:40 IST" name="setUp" finished-at="2024-02-10T17:05:52 IST" duration-ms="12578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="DownloadBtnTest()[pri:1, instance:com.entrata.qa.testcase.ResourcepageTest@54422e18]" started-at="2024-02-10T17:05:52 IST" name="DownloadBtnTest" finished-at="2024-02-10T17:06:05 IST" duration-ms="12856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DownloadBtnTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.entrata.qa.testcase.ResourcepageTest@54422e18]" started-at="2024-02-10T17:06:05 IST" name="tearDown" finished-at="2024-02-10T17:06:20 IST" duration-ms="14654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.entrata.qa.testcase.ResourcepageTest@54422e18]" started-at="2024-02-10T17:06:20 IST" name="setUp" finished-at="2024-02-10T17:06:35 IST" duration-ms="14998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyText()[pri:2, instance:com.entrata.qa.testcase.ResourcepageTest@54422e18]" started-at="2024-02-10T17:06:35 IST" name="verifyText" finished-at="2024-02-10T17:06:36 IST" duration-ms="998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.entrata.qa.testcase.ResourcepageTest@54422e18]" started-at="2024-02-10T17:06:36 IST" name="tearDown" finished-at="2024-02-10T17:06:38 IST" duration-ms="2061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.entrata.qa.testcase.ResourcepageTest -->
+    </test> <!-- Free crm App test case -->
+  </suite> <!-- Free CRM Application -->
+</testng-results>
