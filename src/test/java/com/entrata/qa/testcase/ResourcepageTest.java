@@ -35,9 +35,11 @@ public class ResourcepageTest extends TestBase {
   
    @Test(priority=1)
    
-   public void DownloadBtnTest() throws InterruptedException  {
+   public void DownloadBtnTest()    {
+	   resourcepage.DownloadClick();
+	   
 	  
-	  resourcepage.DownloadClick();
+	
 	  
 	  
 	  

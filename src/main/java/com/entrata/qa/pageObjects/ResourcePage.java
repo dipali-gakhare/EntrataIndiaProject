@@ -2,6 +2,7 @@ package com.entrata.qa.pageObjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -12,7 +13,7 @@ import com.entrata.qa.base.TestBase;
 public class ResourcePage extends TestBase {
 	
 	@FindBy(xpath ="//a[@class='button-default solid-dark-button']")
-	WebElement Downloadbtn;
+	WebElement Watchdemobtn;
 	
 	
 	
@@ -26,9 +27,11 @@ public class ResourcePage extends TestBase {
 		
 		
 	}
-	public void DownloadClick() throws InterruptedException {
-		Thread.sleep(5000);
-		Downloadbtn.click();
+	public void DownloadClick()  {
+		//Thread.sleep(5000);
+		Actions act= new Actions(driver);
+		act.moveToElement(Watchdemobtn).click().build().perform();
+		//Downloadbtn.click();
 		
 		
 	}

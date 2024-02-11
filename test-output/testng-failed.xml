@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Free CRM Application]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Free crm App test case(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.entrata.qa.testcase.WatchdemoTest">
+      <class name="com.entrata.qa.testcase.ResourcepageTest">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="WatchdemodetailTest"/>
+          <include name="DownloadBtnTest"/>
         </methods>
-      </class> <!-- com.entrata.qa.testcase.WatchdemoTest -->
+      </class> <!-- com.entrata.qa.testcase.ResourcepageTest -->
     </classes>
-  </test> <!-- Free crm App test case(failed) -->
-</suite> <!-- Failed suite [Free CRM Application] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

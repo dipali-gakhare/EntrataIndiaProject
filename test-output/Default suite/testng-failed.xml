@@ -7,7 +7,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="ReadmorelinkTest"/>
+          <include name="DownloadBtnTest"/>
         </methods>
       </class> <!-- com.entrata.qa.testcase.ResourcepageTest -->
     </classes>
